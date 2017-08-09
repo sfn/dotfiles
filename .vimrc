@@ -14,6 +14,7 @@ set number
 set cursorline          
 hi CursorLine cterm=NONE ctermbg=NONE
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=236
+hi Visual ctermbg=238 cterm=none ctermfg=none
 " 80 caratteri per riga
 set colorcolumn=81
 hi ColorColumn ctermbg=236
