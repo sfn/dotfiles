@@ -1,6 +1,6 @@
-" ---------------
+" ----------------
 "  ~/.vimrc
-"  --------------
+" ----------------
 
 " Carica i plugin tramite pathogen
 execute pathogen#infect()
