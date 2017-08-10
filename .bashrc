@@ -8,6 +8,8 @@ trap "echo -n $'\e[0m'" DEBUG
 
 # Alias
 alias ls='ls -hG'
+alias clr='clear'
+alias cls='clear'
 alias localip='php -r "echo gethostbyname(php_uname(\"n\")).\"\r\n\";"'
 alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 
