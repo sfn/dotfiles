@@ -8,3 +8,15 @@ trap "echo -n $'\e[0m'" DEBUG
 
 # Alias
 alias ls='ls -hG'
+alias localip='php -r "echo gethostbyname(php_uname(\"n\")).\"\r\n\";"'
+alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+# Funzioni
+function myip () {
+    if [ "$1" == 'public' ]
+    then
+        wanip
+    else
+        localip
+    fi    
+}
